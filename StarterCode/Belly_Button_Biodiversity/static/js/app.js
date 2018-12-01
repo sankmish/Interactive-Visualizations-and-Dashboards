@@ -106,7 +106,7 @@ function buildCharts(sample) {
     }
 
     //How do I get the plot to place in this div ^-
-    Plotly.newPlot("pie", data, layout);
+    Plotly.newPlot("pie", trace2, layout2);
   });
 
 }
